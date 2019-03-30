@@ -1,0 +1,45 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1 Ben Stucke
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            p My name is Ben Stucke and I live in Frankfurt. I study Computer Science and I am currently in the second semester. At the same I work at the IT Company adesso as a Junior Software Engineer. My competences there are mainly frontend. But I also have backend experience with Java and the spring framework. 
+                  .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          li HTML
+          li CSS
+          li Javascript
+          li JQuery
+          li Angular
+          li React 
+          li Java
+          li Spring
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li 0160-99127782
+          li ben-stucke@hotmail.de
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href='https://github.com/Togas') GitHub
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

@@ -1,0 +1,71 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description":"A Random Quote Generator. If you click the button, you get another random quote.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://togas.github.io/a_random_quote_generator-v1/",
+            "github_link": "https://github.com/Togas/a_random_quote_generator-v1",
+            "image_urls": ["/images/randomQuote.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "List Pagination and Filtering",
+            "description":"This site shows a student list. It showcases the use of pagination and of the search bar.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://togas.github.io/List-Pagination-and-Filtering/",
+            "github_link": "https://github.com/Togas/List-Pagination-and-Filtering",
+            "image_urls": [ "/images/pagination.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description":"This page shows an interative form. You can only submit if your inputs are correct and it includes real-time valdiation.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "jQuery"
+            ],
+            "live_link": "https://togas.github.io/Interactive-Form/",
+            "github_link": "https://github.com/Togas/Interactive-Form",
+            "image_urls": ["/images/form.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description":"This app is basically a hangman app. The invisible letters of a random quote appear and you have to guess them. If your guess is wrong you lose a life. You have 5 lifes.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://togas.github.io/OOP-Game-Show-App/",
+            "github_link": "https://github.com/Togas/OOP-Game-Show-App",
+            "image_urls": [ "/images/PhraseHunter.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description":"This page demonstrates an API Request",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "JSON"
+            ],
+            "live_link": "https://togas.github.io/Public-API-Requests/",
+            "github_link": "https://github.com/Togas/Public-API-Requests",
+            "image_urls": [ "/images/apiRequest.png"]
+        }
+    ]
+}
